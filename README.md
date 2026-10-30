@@ -14,6 +14,7 @@ print-ready exports and a README describing the part.
 | [`wave_5/`](wave_5/README.md) | Waveshare ESP32-P4-WIFI6-Touch-LCD-5 | One-piece case: glass in a rim pocket, battery bay, camera holder, three button plungers | Case and buttons modelled and exported; not print-tested yet |
 | [`wave_43/`](wave_43/README.md) | Waveshare ESP32-P4-WIFI6-Touch-LCD-4.3 | wave_5's case resized to the 4.3" board | Case and buttons modelled and exported; not print-tested yet |
 | [`crowpanel_7/`](crowpanel_7/README.md) | Elecrow CrowPanel Advanced 7" ESP32-P4 | Back case and front frame clamping the panel with four M3 screws, rear ports exposed (after Kern's 10.1" case) | Case and frame modelled and exported; not print-tested yet |
+| [`crowpanel_101/`](crowpanel_101/README.md) | Elecrow CrowPanel Advanced 10.1" ESP32-P4 | Same design as `crowpanel_7/`, sized for the 10.1" panel (Kern's own case for it is the reference) | Case and frame modelled and exported; not print-tested yet |
 
 | `p4_pico` | `wave_5` |
 |---|---|
@@ -22,6 +23,9 @@ print-ready exports and a README describing the part.
 | **`wave_43`** | **`crowpanel_7`** |
 | ![wave_43 assembly seen from behind](wave_43/images/assembly.png) | ![crowpanel_7 assembly seen from behind](crowpanel_7/images/assembly.png) |
 | Case: same layout as wave_5, sized for the 4.3" board | Back case of the 7" version: rear connector openings, grilles, camera hole, USB-C ports |
+| **`crowpanel_101`** | |
+| ![crowpanel_101 assembly seen from behind](crowpanel_101/images/assembly.png) | |
+| Back case of the 10.1" version, same layout as the 7" | |
 
 ## Layout
 
