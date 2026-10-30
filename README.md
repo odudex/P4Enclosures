@@ -12,11 +12,12 @@ print-ready exports and a README describing the part.
 |---|---|---|---|
 | [`p4_pico/`](p4_pico/README.md) | ESP32-P4-Pico with a 5" DSI touch display (050-DSI-TOUCH-A) | Back shell screwed to the display's corner standoffs; the board sits in a keel | Printed and tested |
 | [`wave_5/`](wave_5/README.md) | Waveshare ESP32-P4-WIFI6-Touch-LCD-5 | One-piece case: glass in a rim pocket, battery bay, camera holder, three button plungers | Case and buttons modelled and exported; not print-tested yet |
+| [`wave_43/`](wave_43/README.md) | Waveshare ESP32-P4-WIFI6-Touch-LCD-4.3 | wave_5's case resized to the 4.3" board | Case and buttons modelled and exported; not print-tested yet |
 
-| `p4_pico` | `wave_5` |
-|---|---|
-| ![p4_pico assembly seen from behind](p4_pico/images/assembly.png) | ![wave_5 assembly seen from behind](wave_5/images/assembly.png) |
-| Back shell on the display: keel, camera window, USB-C and microSD slot | Case: USB-C ports, microSD slot, button plungers, camera cone |
+| `p4_pico` | `wave_5` | `wave_43` |
+|---|---|---|
+| ![p4_pico assembly seen from behind](p4_pico/images/assembly.png) | ![wave_5 assembly seen from behind](wave_5/images/assembly.png) | ![wave_43 assembly seen from behind](wave_43/images/assembly.png) |
+| Back shell on the display: keel, camera window, USB-C and microSD slot | Case: USB-C ports, microSD slot, button plungers, camera cone | Case: same layout as wave_5, sized for the 4.3" board |
 
 ## Layout
 

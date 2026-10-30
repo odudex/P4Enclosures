@@ -18,3 +18,5 @@ p4_pico/esp32_p4_pico.sc
 p4_pico/pico_enclosure.sc
 wave_5/wave5_board.sc
 wave_5/wave5_enclosure.sc
+wave_43/wave43_board.sc
+wave_43/wave43_enclosure.sc
