@@ -21,6 +21,7 @@ needs checking against the real camera module.
 |---|---|
 | `wave5_case.sc` | The printed parts, fully parametric: body `Case` and plungers `Button1`–`Button3` |
 | `exports/` | `wave5_case.3mf` (case and three buttons), `Case.stl`, `Button.stl` (one button; print three) |
+| `images/` | `assembly.png`, a render of the assembly from behind |
 | `wave5_enclosure.sc` | Local only. Assembly: board and case in place |
 | `wave5_board.sc` | Local only. Board model, the vendor's STEP file imported as is |
 

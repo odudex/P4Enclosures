@@ -18,6 +18,7 @@ The back shell has been printed and tested.
 | `back_shell.sc` | The printed part, fully parametric |
 | `display_5in_dsi.sc` | Simplified display model (panel, back plate, standoffs) |
 | `exports/` | `BackShell.stl` and `BackShell.3mf` for printing, `display_5in_dsi.step` |
+| `images/` | `assembly.png`, a render of the assembly from behind |
 | `pico_enclosure.sc` | Local only. Assembly: display, board, camera and back shell in place |
 | `esp32_p4_pico.sc` | Local only. Board model, imported from the vendor's STEP file |
 

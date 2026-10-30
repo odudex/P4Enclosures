@@ -13,6 +13,11 @@ print-ready exports and a README describing the part.
 | [`p4_pico/`](p4_pico/README.md) | ESP32-P4-Pico with a 5" DSI touch display (050-DSI-TOUCH-A) | Back shell screwed to the display's corner standoffs; the board sits in a keel | Printed and tested |
 | [`wave_5/`](wave_5/README.md) | Waveshare ESP32-P4-WIFI6-Touch-LCD-5 | One-piece case: glass in a rim pocket, battery bay, camera holder, three button plungers | Case and buttons modelled and exported; not print-tested yet |
 
+| `p4_pico` | `wave_5` |
+|---|---|
+| ![p4_pico assembly seen from behind](p4_pico/images/assembly.png) | ![wave_5 assembly seen from behind](wave_5/images/assembly.png) |
+| Back shell on the display: keel, camera window, USB-C and microSD slot | Case: USB-C ports, microSD slot, button plungers, camera cone |
+
 ## Layout
 
 Every enclosure folder follows the same pattern:
@@ -21,6 +26,7 @@ Every enclosure folder follows the same pattern:
 |---|---|
 | `.sc` files in the repository | The printed parts, fully parametric, plus any simplified models of our own |
 | `exports/` | Print-ready STL and 3MF (plus STEP where useful) |
+| `images/` | Renders of the assembly |
 | `<name>_enclosure.sc` | Local only. Assembly: the board, display and printed parts in place |
 | Board model `.sc` | Local only. The vendor's board STEP imported into SolidCraft |
 | `references/` | Local only. Vendor drawings and STEP files |
