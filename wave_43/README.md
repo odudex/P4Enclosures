@@ -6,8 +6,9 @@ A 3D-printable case for the Kern `wave_43` device, built on the Waveshare
 [P4Enclosures](../README.md).
 
 The case is [wave_5](../wave_5/README.md)'s design, resized to this board: the same parametric model
-with every board-derived value measured again on the 4.3" vendor STEP. Kern's own FreeCAD case for this
-board served as a cross-check, and the camera position comes from it.
+with every board-derived value measured again on the 4.3" vendor STEP. The FreeCAD case for this board
+that [@Filputt](https://github.com/Filputt) made for Kern served as a cross-check, and the camera
+position comes from it.
 
 The case is a single printed part. The glass drops into a pocket in the rim. The board screws to four
 bosses on the back wall through its own M2.5 standoffs, and a 503450 LiPo sits in a bay under it. The
