@@ -63,13 +63,16 @@ whole device, and run **Update Links** in it after saving the case.
   cone 4.5 mm deep in the back face, 44.1 mm from the centre at the end away from the USB-C ports. Its
   top is 3 mm below the PCB, for the camera module that ships with the board.
 - Openings: two USB-C ports (12.5 × 6.5 mm, rounded edges) in the +X wall, which is 4 mm thick there
-  because the ports sit 2.25 mm inside the glass edge; the microSD slot (13 × 3 mm, with a 2 mm
-  chamfer for a fingertip) and three Ø5 button holes in the +Y wall.
+  because the ports sit 2.25 mm inside the glass edge; the microSD slot (13 × 3 mm) and three Ø5
+  button holes in the +Y wall.
+- Side recesses, as on wave_5: a 2 mm deep scallop, about 93 mm long with rounded ends, runs along
+  the +Y wall from the glass shelf to 2 mm above the back face, so the microSD card and the buttons
+  are easier to reach. The same scallop on the -Y wall is a grip.
 - Buttons: three plungers with a Ø4.6 shaft and a Ø6.4 × 0.7 mm flange that keeps them in from the
   inside. They stand 0.8 mm out of the wall.
 - The case prints on its back; the back outer edge has a 1 mm chamfer.
 
-The case is driven by the same 51 named user parameters as wave_5 (Parameters table, each with a
+The case is driven by the same 53 named user parameters as wave_5 (Parameters table, each with a
 comment). The board-derived values (glass, cavity, standoff, connector and switch positions) were
 measured on the vendor STEP.
 
