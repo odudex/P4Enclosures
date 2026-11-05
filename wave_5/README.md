@@ -55,19 +55,23 @@ whole device, and run **Update Links** in it after saving the case.
   recesses with a 90° countersink seat.
 - Battery bay: the inner floor is 15.8 mm below the glass front, room for a 503450 LiPo taped to the
   floor under the board.
-- Camera holder (from Kern's 4.3" case): Ø17 base with a 45° cone to Ø9, Ø7.5 lens bore, and a 45° view
-  cone 4.5 mm deep in the back face. Its top is 3 mm below the PCB, for the camera module that ships
-  with the board.
-- Openings: two USB-C ports (12.5 × 6.5 mm, rounded edges) in the +X wall; the microSD slot (14 × 3 mm,
-  with a 2 mm chamfer for a fingertip) and three Ø5 button holes in the +Y wall.
+- Camera holder (from Kern's 4.3" case): Ø17 base with a 3 mm 45° chamfer to Ø11, joined to the -X
+  wall with R3 rounds, Ø7.5 lens bore with an R1 round, and a 45° view cone 4.5 mm deep in the back
+  face. Its top is 3 mm below the PCB, for the camera module that ships with the board.
+- Openings: two USB-C ports (12.5 × 6.5 mm, rounded edges) in the +X wall; the microSD slot (14 × 3 mm)
+  and three Ø5 button holes in the +Y wall.
+- Side recesses: a 2 mm deep scallop, about 105 mm long with rounded ends, runs along the +Y wall
+  from the glass shelf to 2 mm above the back face, so the microSD card and the buttons are easier
+  to reach. The same scallop on the -Y wall is a grip.
 - Buttons: three plungers with a Ø4.6 shaft and a Ø6.4 × 0.5 mm flange that keeps them in from the
   inside. They stand 0.8 mm out of the wall.
 - The case prints on its back; the back outer edge has a 1 mm chamfer.
 
-The case is driven by 51 named user parameters (Parameters table, each with a comment), among them
+The case is driven by 53 named user parameters (Parameters table, each with a comment), among them
 `glass_w`, `glass_h`, `fit`, `wall`, `rim_lift`, `floor_d`, `floor_t`, `boss_d`, `boss_taper`,
 `hole_x1`, `hole_x2`, `hole_y`, `screw_recess`, `cam_x`, `cam_gap`, `usb_w`, `usb_h`, `sd_w`, `sd_h`,
-`btn_x1`, `btn_pitch`, `btn_d` and `btn_proud`. The board-derived values (standoff, connector and
+`btn_x1`, `btn_pitch`, `btn_d`, `btn_proud`, `side_recess_depth`, `side_recess_x` and
+`side_recess_bottom`. The board-derived values (standoff, connector and
 switch positions) were measured on the vendor STEP.
 
 Coordinate frame for every part: origin at the centre of the glass front face, +Z toward the viewer,

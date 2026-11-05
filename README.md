@@ -19,7 +19,7 @@ print-ready exports and a README describing the part.
 | `p4_pico` | `wave_5` |
 |---|---|
 | ![p4_pico assembly seen from behind](p4_pico/images/assembly.png) | ![wave_5 assembly seen from behind](wave_5/images/assembly.png) |
-| Back shell on the display: keel, camera window, USB-C and microSD slot | Case: USB-C ports, microSD slot, button plungers, camera cone |
+| Back shell on the display: keel, camera window, USB-C and microSD slot | Case: USB-C ports, microSD slot and button plungers in a side recess, camera cone |
 | **`wave_43`** | **`crowpanel_7`** |
 | ![wave_43 assembly seen from behind](wave_43/images/assembly.png) | ![crowpanel_7 assembly seen from behind](crowpanel_7/images/assembly.png) |
 | Case: same layout as wave_5, sized for the 4.3" board | Back case of the 7" version: rear connector openings, grilles, camera hole, USB-C ports |
