@@ -1,7 +1,8 @@
 # P4Enclosures
 
 3D-printable enclosures for Kern devices built on **ESP32-P4** boards, modelled in
-[SolidCraft](https://github.com/bherbruck/solidcraft).
+[SolidCraft](https://github.com/bherbruck/solidcraft). The designs are made with SolidCraft
+v0.40.0-rc.1.
 
 Each enclosure has its own folder, named after Kern's designation for the device, with its designs,
 print-ready exports and a README describing the part.
