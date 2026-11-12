@@ -1,0 +1,26 @@
+# SolidCraft writes a backup on every save and a lock file while a design is open
+*.bak
+.~*.lock
+
+# Local tooling: Claude Code skills and settings, MCP server setup with this machine's paths
+.claude/
+.mcp.json
+
+# Python
+__pycache__/
+*.pyc
+
+# Vendor drawings and STEP files, in each enclosure's references/: not ours to redistribute
+references/
+
+# Designs that embed a vendor's board STEP (board models and the assemblies that hold them): local only
+p4_pico/esp32_p4_pico.sc
+p4_pico/pico_enclosure.sc
+wave_5/wave5_board.sc
+wave_5/wave5_enclosure.sc
+wave_43/wave43_board.sc
+wave_43/wave43_enclosure.sc
+crowpanel_7/crowpanel_7_board.sc
+crowpanel_7/crowpanel_7_enclosure.sc
+crowpanel_101/crowpanel_101_board.sc
+crowpanel_101/crowpanel_101_enclosure.sc
