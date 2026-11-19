@@ -61,16 +61,19 @@ whole device, and run **Update Links** in it after saving the case.
 - Side recesses: a 2 mm deep scallop, about 105 mm long with rounded ends, runs along the +Y wall
   from the glass shelf to 2 mm above the back face, so the microSD card and the buttons are easier
   to reach. The same scallop on the -Y wall is a grip.
+- End recesses: the same scallop across the +X wall, 1 mm deep and about 49 mm long, thins the wall
+  around the USB-C ports from 2.6 to 1.6 mm, so plugs reach the ports more easily. It is mirrored on
+  the -X wall.
 - Buttons: three plungers with a Ø4.6 shaft and a Ø6.4 × 0.5 mm flange that keeps them in from the
   inside. They stand 0.8 mm out of the wall.
 - The case prints on its back; the back outer edge has a 1 mm chamfer.
 
-The case is driven by 53 named user parameters (Parameters table, each with a comment), among them
+The case is driven by 55 named user parameters (Parameters table, each with a comment), among them
 `glass_w`, `glass_h`, `fit`, `wall`, `rim_lift`, `floor_d`, `floor_t`, `boss_d`, `boss_taper`,
 `hole_x1`, `hole_x2`, `hole_y`, `screw_recess`, `cam_x`, `cam_gap`, `usb_w`, `usb_h`, `sd_w`, `sd_h`,
-`btn_x1`, `btn_pitch`, `btn_d`, `btn_proud`, `side_recess_depth`, `side_recess_x` and
-`side_recess_bottom`. The board-derived values (standoff, connector and
-switch positions) were measured on the vendor STEP.
+`btn_x1`, `btn_pitch`, `btn_d`, `btn_proud`, `side_recess_depth`, `side_recess_x`,
+`side_recess_bottom`, `end_recess_depth` and `end_recess_y`. The board-derived values (standoff,
+connector and switch positions) were measured on the vendor STEP.
 
 Coordinate frame for every part: origin at the centre of the glass front face, +Z toward the viewer,
 USB-C end at +X, buttons and microSD at +Y, the 2×20 header at -Y. The board model is the vendor STEP

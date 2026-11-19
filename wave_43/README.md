@@ -61,17 +61,20 @@ whole device, and run **Update Links** in it after saving the case.
 - Camera holder (from Kern's 4.3" case): Ø17 base with a 45° cone to Ø9, Ø7.5 lens bore, and a 45° view
   cone 4.5 mm deep in the back face, 44.8 mm from the centre at the end away from the USB-C ports. Its
   top is 3 mm below the PCB, for the camera module that ships with the board.
-- Openings: two USB-C ports (12.5 × 6.5 mm, rounded edges) in the +X wall, which is 4 mm thick there
-  because the ports sit 2.25 mm inside the glass edge; the microSD slot (13 × 3 mm) and three Ø5
-  button holes in the +Y wall.
+- Openings: two USB-C ports (12.5 × 6.5 mm, rounded edges) in the +X wall; the microSD slot
+  (13 × 3 mm) and three Ø5 button holes in the +Y wall.
 - Side recesses, as on wave_5: a 2 mm deep scallop, about 93 mm long with rounded ends, runs along
   the +Y wall from the glass shelf to 2 mm above the back face, so the microSD card and the buttons
   are easier to reach. The same scallop on the -Y wall is a grip.
+- End recesses, as on wave_5: the same scallop across the +X wall, 2.3 mm deep and about 46 mm long.
+  The USB-C ports sit 2.25 mm inside the glass edge, which makes that wall 4 mm thick; the recess
+  thins it to 1.65 mm around the ports, so plugs reach them more easily. It is mirrored on the -X
+  wall, which keeps 1.25 mm.
 - Buttons: three plungers with a Ø4.6 shaft and a Ø6.4 × 0.7 mm flange that keeps them in from the
   inside. They stand 0.8 mm out of the wall.
 - The case prints on its back; the back outer edge has a 1 mm chamfer.
 
-The case is driven by the same 53 named user parameters as wave_5 (Parameters table, each with a
+The case is driven by the same 55 named user parameters as wave_5 (Parameters table, each with a
 comment). The board-derived values (glass, cavity, standoff, connector and switch positions) were
 measured on the vendor STEP.
 
