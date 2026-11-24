@@ -71,3 +71,7 @@ vendor STEP (the board model and the assembly) to `.gitignore`.
 MIT, see [LICENSE](LICENSE). It covers this project's own files. Vendor drawings and board models
 are not in the repository: `references/` and the designs that embed a vendor STEP (the board models
 and the assemblies) are kept locally.
+
+The exception is [`FreeCAD_legacy/`](FreeCAD_legacy): the earlier FreeCAD enclosures from Kern's
+`enclosures/` folder, kept as their authors made them. One of them,
+`crowpanel_10_1/10_1_case.FCStd`, includes Elecrow's model of the board.
